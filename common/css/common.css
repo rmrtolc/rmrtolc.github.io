@@ -1,0 +1,183 @@
+
+.fancybox-lock .fancybox-overlay {
+
+    z-index: 9999999 !important;
+
+}
+
+
+
+
+.tooltip{
+    z-index: 9999999 !important;
+  opacity: 1 !important;
+}
+
+.EskWidgetContainer{
+    cursor: default;
+}
+
+.tooltip-inner {
+
+
+    min-width: 250px;
+    max-width: 350px;
+    padding: 5px 5px;
+    color: #000000;
+    text-align: left;
+    background-color: #f6fbff;
+    border-radius: 7px;
+    border:1px solid #c5c5c5;
+    font-size:12px;
+    -webkit-box-shadow: 2px 2px 12px -10px #000000;
+    -moz-box-shadow: 2px 2px 12px -10px #000000;
+    box-shadow: 0px 0px 40px -10px #000000;
+    opacity: 1 !important;
+}
+
+.tooltip.top {
+    padding: 5px 0;
+    margin-top: 5px;
+}
+.tooltip.right {
+    padding: 0 5px;
+    margin-left: -5px;
+}
+.tooltip.bottom {
+    padding: 5px 0;
+    margin-top: -5px;
+
+}
+.tooltip.left {
+    padding: 0 5px;
+    margin-left: 5px;
+}
+
+#pagesTreePanel{
+
+    overflow: auto;
+    width: 250px;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    background: #F3F3F3;
+    z-index: 99999999;
+    box-shadow: rgb(0, 0, 0) 15px 0px 98px -35px;
+
+    padding:10px;
+
+}
+
+#pagesTreeList li a{
+
+    color: #000 !important;
+}
+#pagesTreeList li a.curSelectedNode {
+
+    background: none !important;
+    outline: none !important;
+    padding: 1px 3px 0 0 !important;
+}
+
+
+[event="click"][panelactivator][panelpos][panel]{
+    cursor: pointer;
+}
+
+[event="click"][panelactivator][panelpos][panel] > div{
+    cursor: auto;
+}
+
+
+.schemaText{
+
+
+    -ms-user-select: none;
+
+    -moz-user-select: none;
+
+    -khtml-user-select: none;
+
+    -webkit-user-select: none;
+}
+.schemaHeader{
+
+
+    -ms-user-select: none;
+
+    -moz-user-select: none;
+
+    -khtml-user-select: none;
+
+    -webkit-user-select: none;
+    line-height: 1.5;
+
+}
+
+.schemaHeader span{
+ 
+    background: #e2e2e2;
+    color: #e2e2e2;
+
+    margin-right: 10px;
+}
+
+
+input[type=checkbox], input[type=radio] {
+    /* margin: 4px 0 0;
+    margin-top: 1px\9;*/
+    display: inline-block;
+    width: initial;
+    height: initial;
+    line-height: normal;
+}
+
+
+
+.form-control:active,
+.form-control:focus{
+    outline: none;
+
+    border: 1px solid #ccc;
+   box-shadow: none;
+
+}
+
+
+input[type=number].form-control::-webkit-inner-spin-button,
+input[type=number].form-control::-webkit-outer-spin-button {
+
+    opacity: 1;
+
+}
+select.form-control {
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;  /*Safari and Chrome */
+
+        background-image: url(../arrow-down2.png);
+   -ms-background-position-y: 50%;
+    background-position-y: 50%;
+    -ms-background-position-x: 99%;
+    background-position-x: 99%;
+    /* background-position:center center;*/
+    background-size: 10px;
+    background-repeat: no-repeat;
+}
+select.form-control::after {
+
+    /*
+    display: inline-block;
+    background-image: url(../arrow-down2.png);
+    -ms-background-position-y: 50%;
+    background-position:center center;
+
+    background-size: 10px;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;*/
+}
+
+
+/*--------*/
